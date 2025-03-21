@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Restful.Demo.Data\Restful.Demo.Data.csproj" />
+    <ProjectReference Include="..\Restful.Demo.Domain\Restful.Demo.Domain.csproj" />
+    <ProjectReference Include="..\Restful.Demo.Services\Restful.Demo.Services.csproj" />
+  </ItemGroup>
+
+</Project>
